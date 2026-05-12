@@ -60,3 +60,4 @@ TripAtlas helps users plan, manage, and experience travel more efficiently by co
 ---
 
 ## 📁 Suggested Project Structure
+“Add TripAtlas README”
