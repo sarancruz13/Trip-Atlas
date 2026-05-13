@@ -9,3 +9,124 @@
   <li>Safety Tools</li>
   <li>Weather</li>
 </ul>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>TripAtlas</title>
+
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #0f172a;
+      color: white;
+    }
+
+    header {
+      padding: 30px;
+      text-align: center;
+      background: #111827;
+    }
+
+    header h1 {
+      font-size: 40px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      color: #cbd5e1;
+    }
+
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 20px;
+      padding: 20px;
+    }
+
+    .card {
+      background: #1e293b;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.3);
+    }
+
+    .card h2 {
+      margin-top: 0;
+    }
+
+    footer {
+      text-align: center;
+      padding: 20px;
+      color: #94a3b8;
+    }
+
+    button {
+      background: #3b82f6;
+      border: none;
+      color: white;
+      padding: 10px 15px;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background: #2563eb;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>TripAtlas</h1>
+  <p>Your all-in-one travel super app</p>
+</header>
+
+<section class="grid">
+
+  <div class="card">
+    <h2>Flights</h2>
+    <p>Search airline tickets and travel deals.</p>
+    <button>Explore</button>
+  </div>
+
+  <div class="card">
+    <h2>Hotels</h2>
+    <p>Find hotels, motels, and resorts.</p>
+    <button>Explore</button>
+  </div>
+
+  <div class="card">
+    <h2>Maps</h2>
+    <p>View travel routes and destinations.</p>
+    <button>Explore</button>
+  </div>
+
+  <div class="card">
+    <h2>Restaurants</h2>
+    <p>Discover places to eat nearby.</p>
+    <button>Explore</button>
+  </div>
+
+  <div class="card">
+    <h2>Weather</h2>
+    <p>Check weather conditions before traveling.</p>
+    <button>Explore</button>
+  </div>
+
+  <div class="card">
+    <h2>Safety</h2>
+    <p>Travel alerts and emergency information.</p>
+    <button>Explore</button>
+  </div>
+
+</section>
+
+<footer>
+  <p>TripAtlas © 2026</p>
+</footer>
+
+</body>
+</html>
